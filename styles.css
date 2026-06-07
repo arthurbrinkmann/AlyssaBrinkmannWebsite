@@ -294,7 +294,7 @@ main {
   overflow: visible;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
-  align-items: stretch;
+  align-items: start;
 }
 
 .project:hover {
@@ -309,7 +309,7 @@ main {
 }
 
 .project__description {
-  flex-grow: 0;
+  flex-grow: 0; 
 }
 .about__contact.center2 {
   display: flex !important;
