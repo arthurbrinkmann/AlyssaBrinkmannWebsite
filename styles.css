@@ -314,9 +314,6 @@ main {
   position: relative;
   z-index: 9999;
 }
-.center2 {
-  background: red;
-}
 .project__stack {
   display: flex;
   flex-wrap: wrap;
