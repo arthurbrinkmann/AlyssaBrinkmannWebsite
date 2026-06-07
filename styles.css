@@ -91,10 +91,10 @@ a {
 button {
   cursor: pointer;
 }
-
-@media (max-width: 900px) {
-  h1 {
-    font-size: 2.6rem;
+/* 2. This overrides the margin ONLY on mobile screens */
+@media (max-width: 768px) {
+  .about__contact-center {
+    margin-top: 25px; /* Safely spaces it below the long text on mobile */
   }
 }
 
@@ -308,13 +308,13 @@ main {
   margin-top: 1em;
 }
 .about__contact-center {
-  display: projects__grid;
-  flex-direction: column;  /* Ensures elements stack on mobile */
-  justify-content: center; /* Centers vertically in a column */
-  align-items: center;     /* Centers horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  margin-top: auto;
-  text-align: center;      /* Crucial: Centers text when it wraps on small screens */
+  margin-top: auto; /* Keeps your desktop alignment perfect */
+  text-align: center;
 }
 .project__stack {
   display: flex;
