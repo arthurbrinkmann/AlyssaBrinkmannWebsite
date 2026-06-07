@@ -313,11 +313,8 @@ main {
   flex-grow: 0; 
 }
 .about__contact.center2 {
-  display: iine-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  background: yellow !important;
-  border: 2px solid red !important;
+  position: relative;
+  z-index: 9999;
 }
 .project__stack {
   display: flex;
