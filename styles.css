@@ -96,15 +96,7 @@ button {
   h1 {
     font-size: 2.6rem;
   }
-
-  /* PREVENT THE BUTTON FROM SHRINKING OR COLLAPSING */
-  .your-button-class {
-    flex-shrink: 0; 
-    min-width: 120px; /* Forces a baseline mobile size */
-    height: auto;
-  }
 }
-
 
 /*===================
   buttons and links
@@ -290,11 +282,12 @@ main {
 }
 
 .projects__grid {
-    max-width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  /* Updated line below */
-  grid-template-columns: repeat(auto-fit, minmax(min(18em, 100%), 1fr));
+  height: auto;
+  overflow: visible;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
 
