@@ -91,9 +91,10 @@ a {
 button {
   cursor: pointer;
 }
-@media (max-width: 600px) or (max-width: 768px) {
+@media (max-width: 768px) {
   .about__contact-center {
-    display: none; /* <--- If this is anywhere in your file, it overrides everything else */
+    margin-top: 1rem;
+    width: 100%;
   }
 }
 
@@ -289,10 +290,11 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  min-height: 900px; /* Allows the overall grid container to grow vertically on mobile */
+  min-height: 700px; /* Allows the overall grid container to grow vertically on mobile */
   overflow: visible;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  align-items: stretch;
 }
 
 .project {
