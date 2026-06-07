@@ -96,7 +96,15 @@ button {
   h1 {
     font-size: 2.6rem;
   }
+  
+  /* FORCE YOUR BUTTON TO STAY VISIBLE */
+  .your-button-class {
+    display: inline-block !important; 
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
 }
+
 
 /*===================
   buttons and links
