@@ -290,7 +290,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  min-height: 700px; /* Allows the overall grid container to grow vertically on mobile */
+  /* min-height: 700px; Allows the overall grid container to grow vertically on mobile */
   overflow: visible;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
@@ -303,13 +303,11 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
-  
-  /* 1. Change this from min-height: 100% to help mobile browsers */
-  height: auto; 
-  
-  /* 2. Turn the card itself into a Flexbox container */
+
   display: flex;
   flex-direction: column;
+  height: auto;
+  overflow: visible;
 }
 
 .project:hover {
@@ -322,14 +320,14 @@ main {
 .about__contact-center {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  justify-content: center;
   text-align: center;
-  margin-top: auto;
-  
-  /* This pushes the button to the bottom on desktop, */
-  /* but safely spaces it below the long text on mobile */
+
+  width: 100%;
+  margin-top: 2rem;
+  visibility: visible;
+  opacity: 1;
 }
 .project__stack {
   display: flex;
