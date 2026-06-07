@@ -311,17 +311,10 @@ main {
 .project__description {
   flex-grow: 1;
 }
-
 .about__contact.center2 {
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
-.about__contact.center2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 1.5rem;
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 .project__stack {
   display: flex;
