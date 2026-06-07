@@ -316,6 +316,12 @@ main {
   position: relative;
   z-index: 9999;
 }
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 .project__stack {
   display: flex;
   flex-wrap: wrap;
