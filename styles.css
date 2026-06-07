@@ -308,7 +308,7 @@ main {
   margin-top: 1em;
 }
 .about__contact-center {
-  display: flex;
+  display: projects__grid;
   flex-direction: column;  /* Ensures elements stack on mobile */
   justify-content: center; /* Centers vertically in a column */
   align-items: center;     /* Centers horizontally */
