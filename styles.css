@@ -92,7 +92,7 @@ button {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .about__contact-center {
+  .about__contact-center2 {
     margin-top: 1rem;
     width: 100%;
   }
@@ -318,6 +318,13 @@ main {
   margin-top: 1em;
 }
 .about__contact.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.about__contact.center2 {
   display: flex;
   justify-content: center;
   align-items: center;
