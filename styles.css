@@ -306,10 +306,12 @@ main {
 }
 .about__contact-center {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  width: 100%;             /* Spans full width of the grid card */
-  margin-top: auto;        /* Pushes it cleanly to the bottom if content is short */
+  flex-direction: column;  /* Ensures elements stack on mobile */
+  justify-content: center; /* Centers vertically in a column */
+  align-items: center;     /* Centers horizontally */
+  width: 100%;
+  margin-top: auto;
+  text-align: center;      /* Crucial: Centers text when it wraps on small screens */
 }
 .project__stack {
   display: flex;
