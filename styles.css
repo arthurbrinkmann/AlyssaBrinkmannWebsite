@@ -304,7 +304,13 @@ main {
 .project__description {
   margin-top: 1em;
 }
-
+.about__contact-center {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  width: 100%;             /* Spans full width of the grid card */
+  margin-top: auto;        /* Pushes it cleanly to the bottom if content is short */
+}
 .project__stack {
   display: flex;
   flex-wrap: wrap;
