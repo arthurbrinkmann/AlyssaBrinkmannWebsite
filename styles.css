@@ -306,6 +306,7 @@ main {
   padding: 2em;
   height: auto;
   overflow: visible;
+  border: 2px solid #000000;
 }
 
 .project__description {
