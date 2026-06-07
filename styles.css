@@ -313,9 +313,11 @@ main {
   flex-grow: 0; 
 }
 .about__contact.center2 {
-  display: flex !important;
+  display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
+  background: yellow !important;
+  border: 2px solid red !important;
 }
 .project__stack {
   display: flex;
