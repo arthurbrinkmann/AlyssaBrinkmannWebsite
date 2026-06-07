@@ -92,12 +92,10 @@ button {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .about__contact-center2 {
-    margin-top: 1rem;
+  .about__contact.center2 {
     width: 100%;
   }
 }
-
   .project {
     height: auto;       /* Allows the card to grow taller for the text */
     overflow: visible;  /* Ensures nothing gets chopped off */
