@@ -285,7 +285,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  height: auto;
+  height: 1200px;
   overflow: visible;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
