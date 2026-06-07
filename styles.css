@@ -91,10 +91,14 @@ a {
 button {
   cursor: pointer;
 }
-/* 2. This overrides the margin ONLY on mobile screens */
 @media (max-width: 768px) {
   .about__contact-center {
-    margin-top: 25px; /* Safely spaces it below the long text on mobile */
+    margin-top: 25px; /* Keeps the button from breaking */
+  }
+
+  .project {
+    height: auto;       /* Allows the card to grow taller for the text */
+    overflow: visible;  /* Ensures nothing gets chopped off */
   }
 }
 
@@ -285,12 +289,14 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  height: 900px;
+  
+  /* CHANGE THIS LINE */
+  min-height: 900px; /* Looks great on desktop, but ALLOWS the grid to grow taller on mobile */
+  
   overflow: visible;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
-
 .project {
   padding: 2em;
   margin: 0 auto;
