@@ -297,32 +297,24 @@ main {
   align-items: stretch;
 }
 
-.project {
-  padding: 2em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
-
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  overflow: visible;
-}
-
 .project:hover {
   transform: translateY(-7px);
 }
 
-.project__description {
-  margin-top: 1em;
-}
-.about__contact.center {
+.project {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 1.5rem;
+  flex-direction: column;
+  padding: 2em;
+  height: auto;
+}
+
+.project__description {
+  flex-grow: 1;
+}
+
+.about__contact.center2 {
+  margin-top: auto;
+  padding-top: 1rem;
 }
 .about__contact.center2 {
   display: flex;
