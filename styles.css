@@ -96,12 +96,12 @@ button {
   h1 {
     font-size: 2.6rem;
   }
-  
-  /* FORCE YOUR BUTTON TO STAY VISIBLE */
+
+  /* PREVENT THE BUTTON FROM SHRINKING OR COLLAPSING */
   .your-button-class {
-    display: inline-block !important; 
-    visibility: visible !important;
-    opacity: 1 !important;
+    flex-shrink: 0; 
+    min-width: 120px; /* Forces a baseline mobile size */
+    height: auto;
   }
 }
 
