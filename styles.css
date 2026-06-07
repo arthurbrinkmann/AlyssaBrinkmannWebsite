@@ -309,7 +309,7 @@ main {
 }
 
 .project__description {
-  flex-grow: 1;
+  flex-grow: 0;
 }
 .about__contact.center2 {
   display: flex !important;
