@@ -101,7 +101,6 @@ button {
     height: auto;       /* Allows the card to grow taller for the text */
     overflow: visible;  /* Ensures nothing gets chopped off */
   }
-}
 
 /*===================
   buttons and links
@@ -325,10 +324,10 @@ main {
   align-items: center;
   width: 100%;
   text-align: center;
+  margin-top: auto;
   
   /* This pushes the button to the bottom on desktop, */
   /* but safely spaces it below the long text on mobile */
-  margin-top: 2em; 
 }
 .project__stack {
   display: flex;
