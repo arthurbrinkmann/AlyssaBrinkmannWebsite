@@ -313,7 +313,7 @@ main {
   flex-grow: 0; 
 }
 .about__contact.center2 {
-  display: block !important;
+  display: iine-block !important;
   visibility: visible !important;
   opacity: 1 !important;
   background: yellow !important;
