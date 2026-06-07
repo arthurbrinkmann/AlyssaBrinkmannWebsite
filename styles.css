@@ -306,6 +306,7 @@ main {
   flex-direction: column;
   padding: 2em;
   height: auto;
+  overflow: visible;
 }
 
 .project__description {
